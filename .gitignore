@@ -1,7 +1,7 @@
 # Ignore everything
-/*
+
 # But not these files...
-!app
+
 
 
 ## Ignore Visual Studio temporary files, build results, and
