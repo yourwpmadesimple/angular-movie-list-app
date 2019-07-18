@@ -28,12 +28,12 @@ import { HttpClientModule, HttpXhrBackend } from '@angular/common/http';
   ],
   providers: [
     MediaItemService,
-    { 
-      provide: lookupListToken, 
+    {
+      provide: lookupListToken,
       useValue: lookupLists
     },
-    { 
-      provide: HttpXhrBackend, 
+    {
+      provide: HttpXhrBackend,
       useClass: MockXHRBackend
     }
   ],
